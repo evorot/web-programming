@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Document</title>
+</head>
+<style>
+    label {
+        display: inline-block;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+</style>
+
+<body>
+<form>
+    <label for="name">Name</label>
+    <br>
+    <input id="name" name="name" placeholder="Maxim" type="text">
+    <br>
+    <label for="password">Password</label>
+    <br>
+    <input id="password" name="password" type="password">
+    <br>
+    <label for="tel">Tel</label>
+    <br>
+    <input id="tel" name="tel" placeholder="0-000-000" type="tel">
+    <br>
+    <label>Gender</label>
+    <br>
+    <input id="male" name="gender" type="radio">Male
+    <input id="female" name="gender" type="radio">Female
+    <br>
+    <label>Meel</label>
+    <br>
+    <input id="pizza" name="meel" type="checkbox">Pizza
+    <input id="salad" name="meel" type="checkbox">Salad
+    <input id="burger" name="meel" type="checkbox">Burger
+    <br>
+    <label for="quantity">Quantity</label>
+    <br>
+    <input id="quantity" min="0" name="quantity" style="width: 50px;" type="number">
+    <br>
+    <label for="color">Favorite color</label>
+    <br>
+    <input id="color" type="color">
+    <br>
+    <label for="about">About yourself</label>
+    <br>
+    <textarea id="about" name="about"> </textarea>
+    <br>
+    <label for="photo">Your photo</label>
+    <br>
+    <input accept="image/png, image/jpeg" id="photo" name="photo" type="file">
+    <br>
+    <input style="margin-top: 15px" type="submit" value="Send">
+    <input type="reset" value="Clear">
+</form>
+
+</body>
+</html>

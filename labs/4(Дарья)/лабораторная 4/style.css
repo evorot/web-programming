@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500;1,600&family=PT+Serif+Caption&family=Roboto:ital,wght@0,100;1,400;1,500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(86,165,245,1) 70%, rgba(86,165,245,1) 100%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.offer_title{
+    width: 400px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.offer_title span{
+    font-size: 36px;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 50px;
+}
+.offer{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.right img{
+    width: 400px;
+}
+.button{
+    width: 200px;
+    height: 50px;
+    background-color: yellow;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+/*main*/
+.main{
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.main_title{
+    text-align: center;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.description{
+    display: block;
+    background-color: #ECF3F8;
+    text-align: center;
+    padding-top: 50px;
+padding-bottom: 50px;
+}
+form input{
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+}
+form button {
+    margin-top: 15px;
+    width: 350px;
+    height: 40px;
+    background-color: yellow;  
+    margin-bottom: 30px; 
+}
+.call{
+    padding-bottom: 30px;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgb(0,92,227);
+background: linear-gradient(180deg, rgba(0,92,227,1) 31%, rgba(255,255,255,1) 100%, rgba(34,107,178,1) 100%, rgba(0,92,227,1) 100%);
+    color: #fff;
+    text-align: center;
+}

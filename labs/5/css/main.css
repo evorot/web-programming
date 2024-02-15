@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,100;1,700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+    background: rgb(94, 165, 245);
+    background: linear-gradient(0deg, rgba(94, 165, 245, 1) 0%, rgba(50, 145, 198, 1) 100%);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    color: white;
+}
+
+.logo img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.offer__title {
+    width: 325px;
+}
+
+.key__word {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.left {
+    width: 50%;
+}
+
+.left p {
+    width: 75%;
+    text-align: justify;
+}
+
+.right img {
+    width: 360px;
+    transition: width 2s
+}
+
+.right img:hover {
+    width: 100px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    animation: alarm;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes alarm {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: blue;
+    }
+    0% {
+        background-color: red;
+    }
+}
+
+.btn:hover {
+    animation: hinge;
+    animation-duration: 1s;
+}
+
+
+/*Main*/
+
+.main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main h2 {
+
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main__title {
+    text-align: center;
+    margin-bottom: 50px;
+    transition: color 1s;
+}
+
+.main__title:hover {
+    color: red;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.block p {
+    font-size: 12px;
+    width: 75%;
+    text-align: center;
+}
+
+.call__form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #EAF1F6FF;
+    display: block;
+    text-align: center;
+}
+
+.call__form h2 {
+    text-align: center;
+}
+
+form input {
+    margin-top: 15px;
+    font-size: 12px;
+    padding-left: 20px;
+    width: 280px;
+    height: 30px;
+    border: solid #BABABAFF 2px;
+}
+
+form button {
+    margin-top: 15px;
+    width: 305px;
+    height: 40px;
+    background-color: red;
+    margin-bottom: 30px;
+    border: solid #BABABAFF 2px;
+    animation: alarm;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+.footer {
+    font-size: 12px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgb(94, 165, 245);
+    background: linear-gradient(0deg, rgba(94, 165, 245, 1) 0%, rgba(95, 142, 205, 1) 50%, rgba(9, 45, 184, 1) 100%);
+    color: #fff;
+    text-align: center;
+}

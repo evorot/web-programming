@@ -1,0 +1,27 @@
+.header1 {
+    color: red;
+}
+
+.header2 {
+    background-color: green;
+    color: white;
+}
+
+.header3 {
+    background-color: green;
+    color: white;
+    padding: 50px 70px;
+}
+
+.lorem {
+    background-color: blue;
+    width: 150px;
+    color: white;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+li {
+    border: 1px solid black;
+    font-weight: bold;
+}
